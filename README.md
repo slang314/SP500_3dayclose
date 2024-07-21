@@ -39,3 +39,15 @@ This prediction system would (with near certainty) be more appropriate for predi
 ## Concluding Remarks:
 In this exercise, I learned how to make use of Rstudio server, R scripts, Python scripts, and Python packages to build a random forest model to predict the 3-day closing price of the S&P 500 ETF "SPY", given data from the current day's date. After training, one can input current data to get a prediction for the closing price of the S&P in 3 days time. The model takes as input the closing price of the ticker, so must be run after market close on a given day (4pm ET).
 
+## Packages:
+### Python:
+`textblob` https://textblob.readthedocs.io/en/dev/
+`spacy` https://spacy.io/usage
+`newsapi` https://newsapi.org/
+`pandas` https://pandas.pydata.org/
+
+### R:
+`readr` (R base libraries)
+`randomForest` https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm
+`ggplot2` (R base libraries)
+`reshape` https://github.com/hadley/reshape
