@@ -4,7 +4,7 @@ library(randomForest)
 library(ggplot2)
 library(reshape2)
 
-data <- read_csv("2024bible_less_leading.csv")
+data <- read_csv("data.csv")
 
 head(data)
 
